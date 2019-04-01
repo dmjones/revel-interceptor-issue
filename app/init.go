@@ -10,6 +10,8 @@ var (
 
 	// BuildTime revel app build-time (ldflags)
 	BuildTime string
+
+	Switch bool
 )
 
 func init() {
